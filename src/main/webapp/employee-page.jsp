@@ -1,23 +1,23 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>  
-<!DOCTYPE html>  
-<html>  
-<head>  
-    <title>Employee Form</title>  
-</head>  
-<h3>Employee Information Form</h3>  
-<body>  
-    <form:form action="submitForm" modelAttribute="employee">  
-        Employee Number : <form:input path="empno" />         
-        <br><br>  
-        Employee name: <form:input path="ename" />  
-        <br><br>  
-        Employee designation: <form:input path="designation" />  
-        <br><br>  
-        Employee salary: <form:input path="salary" />  
-        <br><br>  
-       
-          
-        <input type="submit" value="Submit" />  
-    </form:form>  
-</body>  
-</html>  
+<%@Â taglibÂ prefix="form"Â uri="http://www.springframework.org/tags/form"Â %>Â Â 
+<!DOCTYPEÂ html>Â Â 
+<html>Â Â 
+<head>Â Â 
+Â Â Â Â <title>EmployeeÂ Form</title>Â Â 
+</head>Â Â 
+<h3>Employee InformationÂ Form</h3>Â Â 
+<body>Â Â 
+Â Â Â Â <form:formÂ action="submitForm"Â modelAttribute="employee">Â Â 
+Â Â Â Â Â Â Â Â Employee Number :Â <form:inputÂ path="empno"Â />Â Â Â Â Â Â Â Â Â 
+Â Â Â Â Â Â Â Â 
+Â Â Â Â Â Â Â Â EmployeeÂ name:Â <form:inputÂ path="ename"Â />Â Â 
+Â Â Â Â Â Â Â 
+Â Â Â Â Â Â Â Â Employee designation: <form:inputÂ path="designation"Â />Â Â 
+Â Â Â Â Â Â 
+        Employee salary: <form:inputÂ path="salary"Â />Â Â 
+Â Â Â Â Â Â 
+Â Â Â Â Â Â Â 
+Â Â Â Â Â Â Â Â Â Â 
+Â Â Â Â Â Â Â Â <inputÂ type="submit"Â value="Submit"Â />Â Â 
+Â Â Â Â </form:form>Â Â 
+</body>Â Â 
+</html>Â Â 
